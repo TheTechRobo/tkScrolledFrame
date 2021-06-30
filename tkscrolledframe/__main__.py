@@ -1,13 +1,7 @@
 """Demonstration of the ScrolledFrame widget."""
 
-try:
-    # Python 3
-    from tkinter import *
-except (ImportError):
-    # Python 2
-    from Tkinter import *
-
-from . import *
+from tkinter import *
+from . import ScrolledFrame
 
 
 # EGA color palette

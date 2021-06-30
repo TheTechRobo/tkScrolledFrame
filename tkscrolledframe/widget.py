@@ -2,20 +2,10 @@
 
 import sys
 
-try:
-    # Python 3
-    import tkinter as tk
-except (ImportError):
-    # Python 2
-    import Tkinter as tk
+import tkinter as tk
 
 try:
-    try:
-        # Python 3
-        import tkinter.ttk as ttk
-    except (ImportError):
-        # Python 2
-        import ttk
+    import tkinter.ttk as ttk
 except (ImportError):
     # Can't provide ttk's Scrollbar
     pass
